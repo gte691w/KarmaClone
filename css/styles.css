@@ -67,6 +67,9 @@ body{
 
 .top-navigation {
     background-color: #FFFFFF;
+    position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 
@@ -108,11 +111,16 @@ body{
     height: 45.938rem;
     background-position: 0 bottom;
     margin: 0 auto;
+
+}
+
+.introduction .content{
+	vertical-align: middle;
 }
 
 .introduction h1 {
 font-size: 3.125rem;
-padding-top: 48px;
+padding-top: 271.504px;
 }
 
 .introduction h3 {
@@ -149,3 +157,43 @@ font-weight: 300;
     background-color: #FF9900;
 }
 
+.cases .content {
+	
+	margin-top: 7.875rem;
+	padding: none;
+	color: #1d1e21;
+	text-align: center;
+}
+
+
+
+.cases .content h2 {
+	
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+
+.cases .devices {
+
+  	height: 300px; 
+  	width: 33.3333333%;
+    display: inline-block;
+	
+    
+}
+
+
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+
+.cases .devices h3 {
+font-weight: 400;
+font-size: 1.563rem;
+margin: 2.5rem 0px 1.875rem;
+}
